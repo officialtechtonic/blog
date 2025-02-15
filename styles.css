@@ -1,0 +1,135 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: 	#222;
+    color: #fff;
+    line-height: 1.6;
+    
+}
+.logo 
+{ border-radius: 25%;
+margin: auto; 
+width: 60px;}
+
+header {
+    text-align: center;
+    padding: 10px;
+   width: fit-content;
+margin: auto;
+
+    background-color: 		#494949; 
+    border-radius: 10px;
+    border-width: 100px ;
+position: fixed;
+top: 0;
+left: 0; right: 0;
+display: flex;
+min-width: fit-content;
+  }
+
+ h1 {
+    font-size: 20px;
+    font-weight: bold;
+    
+margin-right: 10px;
+ margin-left: 10px;
+margin-top: 9px;}
+
+nav ul {
+    list-style: none;
+    padding: 1px 0;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 3px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 3px;
+    margin-left: px;
+}
+.aa{ color: aquamarine;}
+.about{text-align: center; }
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.featured, .latest-posts {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+.contact-link { color:#fff;
+    text-align: justify;
+}
+
+.post {
+    background: 	#414141;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px; 
+   
+}
+
+.post img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.post h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.post p {
+    font-size: 14px;
+    color: #bbb;
+}
+
+.postpreview { image-resolution: 1080, 1080;}
+.socialmedia{text-align: center;}
+.post a {
+    display: inline-block;
+    margin-top: 10px;
+    color: aquamarine;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.post a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    .featured, .latest-posts {
+        padding: 10px;
+    }
+}
+
+
+
+.foot {  text-align: center;
+    padding: 10px;
+   width: fit-content;
+margin: auto; 
+position: relative;
+border: inset #fffff;}
